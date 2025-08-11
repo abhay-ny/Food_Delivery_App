@@ -51,7 +51,8 @@ The platform also provides admin tools to manage restaurants, orders, and users 
 4. **Run the app**
    ```bash
    npm start
-   ** For React Native: **
+5. For React Native:
+    ```bash
    npx react-native run-android
    npx react-native run-ios
    
