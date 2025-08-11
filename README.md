@@ -38,5 +38,49 @@ The platform also provides admin tools to manage restaurants, orders, and users 
    git clone https://github.com/your-username/food-go.git
    cd food-go
 2. **Install dependencies**
+   ```bash
+   npm install
+   (Or use yarn install if using Yarn)
+3. **Set up environment variables**
+   Create a .env file in the project root.
+   Add keys for Firebase, Payment Gateway, and Google Maps API:
+   ```bash
+   FIREBASE_API_KEY=your_firebase_key
+   PAYMENT_GATEWAY_KEY=your_payment_key
+   GOOGLE_MAPS_API_KEY=your_maps_key
+4. **Run the app**
+   ```bash
+   npm start
+   ** For React Native: **
+   npx react-native run-android
+   npx react-native run-ios
+   
+📌 Future Enhancements
+AI-powered food recommendations
 
-npm install
+Voice command ordering
+
+Multi-language support
+
+Scheduled deliveries
+
+Table reservation system for dine-in options
+
+🤝 Contributing
+Contributions are welcome!
+
+Fork the project
+
+Create your feature branch: git checkout -b feature-name
+
+Commit changes: git commit -m 'Add some feature'
+
+Push to branch: git push origin feature-name
+
+Open a Pull Request
+
+👨‍💻 Author
+Abhay N Y
+📧 abhayny00@gmail.com
+🔗 linkedin.com/in/abhay-ny | github.com/abhay-ny
+
